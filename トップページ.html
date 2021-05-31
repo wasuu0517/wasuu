@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>トップページ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+      document.getElementById("demo-form").submit();
+    }
+  </script>
+</head>
+<body style="background-image: url(b030.gif);">
+    <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
+    <center>  
+<h1>しょうたが作ったサイト</h1>
+<p>幸運になるボタン</p>
+<button type=“button” onclick="location.href='おみくじ.html'">幸運ボタン</button>
+        </p>
+        <p>作った作品一覧</p>
+        <a href="時計.html">時計</a><br>
+        <a href="https://www.google.co.jp/">googleへ</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JCpzQyEcQes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    </body>
+</html>
